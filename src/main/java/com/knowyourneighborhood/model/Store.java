@@ -4,8 +4,6 @@ public class Store {
 	private String name;
 	private String phoneNumber;
 	private String [] localities;  // list of areas or localities the store serves
-	
-	// Getter & Setter
 	public String getName() {
 		return name;
 	}
@@ -24,4 +22,5 @@ public class Store {
 	public void setLocalities(String[] localities) {
 		this.localities = localities;
 	}
+	
 }

@@ -23,5 +23,4 @@ public class StoreService {
 		store = storeDao.setStores(store);
 		return store;
 	}
-	
 }

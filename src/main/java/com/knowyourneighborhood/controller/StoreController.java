@@ -18,12 +18,10 @@ public class StoreController {
 	
 	@Autowired
 	private StoreService storeService;
-	
 	@GetMapping("/")
 	public String welcome() {
 	    return "index";
 	}
-	
 	@GetMapping("/registerStore")
 	public String getRegisterStore(Model model) {
 		// For later form Posting Purpose
