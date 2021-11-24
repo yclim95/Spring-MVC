@@ -8,6 +8,7 @@
 <title>Know Your Neighbourhood: View Store</title>
 </head>
 <body>
+	<a href="registerStore"><button>Register Store</button></a>
 	<table border="1">
 		<tr>
 			<th>Name</th>
